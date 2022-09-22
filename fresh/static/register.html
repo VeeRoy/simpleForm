@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <section>
+        <h1>REGISTER</h1>
+        <form action="/register" method="POST">
+            <label>Enter Your Name</label> <br>
+            <input type="text" name="name" id="name" placeholder="Ibrahim Victor Kefas" required> <br>
+            <label>Enter Your Username</label> <br>
+            <input type="text" id="username" name="username" required> <br>
+            <label>Enter Your password</label> <br>
+            <input type="password" id="passwordd" name="passwordd" required> <br>
+            <label>Enter Your Mail</label> <br>
+            <input type="email" id="email" name="email" required> <br>
+            <label>Pick a Learning Track</label>
+            <select name="tracks" id="tracks">
+                <option value="Head">Tracks</option>
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Robotics and AI">Robotics and AI</option>
+            </select> <br>
+            <label>Select Your Gender</label> <br>
+            <input type="radio" value="male" name="gender" id="gender"> male 
+            <input type="radio" value="female" name="gender" id="gender"> female 
+            <input type="radio" value="other" name="gender" id="gender"> other <br>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </form>
+    </section>
+</body>
+
+</html>
